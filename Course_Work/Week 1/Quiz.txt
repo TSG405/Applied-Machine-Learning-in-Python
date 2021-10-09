@@ -1,0 +1,123 @@
+
+
+QUIZ _ WEEK 1 -----*-*-*-*-*-*-*-*-------
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------
+**************************************
+
+
+1. Select the option that correctly completes the sentence:
+Training a model using labeled data and using this model to predict the labels for new data is known as ____________.
+
+
+
+
+>> Supervised Learning
+
+
+
+
+2. Select the option that correctly completes the sentence:
+Modeling the features of an unlabeled dataset to find hidden structure is known as ____________.
+
+
+
+
+>> Unsupervised Learning
+
+
+
+
+3. Select the option that correctly completes the sentence:
+Training a model using categorically labelled data to predict labels for new data is known as __________.
+
+
+
+
+>> Classification
+
+
+
+
+4. Select the option that correctly completes the sentence:
+Training a model using labelled data where the labels are continuous quantities to predict labels for new data is known as __________.
+
+
+
+
+>> Regression
+
+
+
+
+5. Using the data for classes 0, 1, and 2 plotted below, what class would a KNeighborsClassifier classify the new point as for k = 1 and k = 3?
+[Pic is provided in the same folder as of this txt file -- Q5.png]
+
+
+
+
+>> k=1: Class 1
+   k=3: Class 2
+
+
+
+
+6. Which of the following is true for the nearest neighbor classifier (Select all that apply):
+
+
+
+
+>> Memorizes the entire training set
+
+
+
+
+7. Why is it important to examine your dataset as a first step in applying machine learning? (Select all that apply):
+
+
+
+
+>> See what type of cleaning or preprocessing still needs to be done
+   You might notice missing data
+   Gain insight on what machine learning model might be appropriate, if any
+   Get a sense for how difficult the problem might be
+
+
+
+
+8. The key purpose of splitting the dataset into training and test sets is:
+
+
+
+
+>> To estimate how well the learned model will generalize to new data
+
+
+
+
+9. The purpose of setting the random_state parameter in train_test_split is: (Select all that apply)
+
+
+
+
+>> To make experiments easily reproducible by always using the same partitioning of the data
+
+
+
+
+10. Given a dataset with 10,000 observations and 50 features plus one label, what would be the dimensions of X_train, y_train, X_test, and y_test? Assume a train/test split of 75%/25%.
+
+
+
+
+>> X_train: (7500, 50)
+   y_train: (7500, )
+   X_test: (2500, 50)
+   y_test: (2500, )
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@ CODED BY TSG405, 2021
+************************

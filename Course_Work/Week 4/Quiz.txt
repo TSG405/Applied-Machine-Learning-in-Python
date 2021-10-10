@@ -1,0 +1,133 @@
+
+
+QUIZ _ WEEK 4 -----*-*-*-*-*-*-*-*-------
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------
+**************************************
+
+
+1. Which of the following is an example of clustering?
+
+
+
+
+>> Separate the data into distinct groups by similarity
+
+
+
+
+2. Which of the following are advantages to using decision trees over other models? (Select all that apply)
+
+
+
+
+>> Trees are easy to interpret and visualize
+   Trees often require less preprocessing of data
+
+
+
+
+3. What is the main reason that each tree of a random forest only looks at a random subset of the features when building each node?
+
+
+
+
+>> To improve generalization by reducing correlation among the trees and making the model more robust to bias.
+
+
+
+
+4. Which of the following supervised machine learning methods are greatly affected by feature scaling? (Select all that apply)
+
+
+
+
+>> Neural Networks
+   KNN
+   Support Vector Machines
+
+
+
+
+5. Select which of the following statements are true.
+
+
+
+
+>> For predicting future sales of a clothing line, Linear regression would be a better choice than a decision tree regressor.
+   For a model that won’t overfit a training set, Naive Bayes would be a better choice than a decision tree.
+
+
+
+
+6. Match each of the prediction probabilities decision boundaries visualized below with the model that created them.
+[Pic is provided in the same folder as of this txt file -- Q6.png]
+
+
+
+
+>> Neural Network
+   KNN (k=1)
+   Decision Tree
+
+
+
+
+7. A decision tree of depth 2 is visualized below.
+Using the `value` attribute of each leaf, find the accuracy score for the tree of depth 2 and the accuracy score for a tree of depth 1.
+What is the improvement in accuracy between the model of depth 1 and the model of depth 2? (i.e. accuracy2 - accuracy1)
+
+[Pic is provided in the same folder as of this txt file -- Q7.png]
+
+
+
+
+>> 0.06745
+
+
+
+
+8. For the autograded assignment in this module, you will create a classifier to predict whether a given blight ticket will be paid on time (See the module 4 assignment notebook for a more detailed description).
+Which of the following features should be removed from the training of the model to prevent data leakage? (Select all that apply)
+
+
+
+
+>> collection_status - Flag for payments in collections
+   compliance_detail - More information on why each ticket was marked compliant or non-compliant
+
+
+
+
+9. Which of the following might be good ways to help prevent a data leakage situation?
+
+
+
+
+>> If time is a factor, remove any data related to the event of interest that doesn’t take place prior to the event.
+   Remove variables that a model in production wouldn’t have access to
+   Sanity check the model with an unseen validation set
+
+
+
+
+10. Given the neural network below, find the correct outputs for the given values of x1 and x2.
+The neurons that are shaded have an activation threshold, e.g. the neuron with >1?  will be activated and output 1 if the input is greater than 1 and will output 0 otherwise.
+
+[Pic is provided in the same folder as of this txt file -- Q10.png]
+
+
+
+
+>>      x1      x2     output
+        0       0        0
+        0       1        1
+        1       0        1
+        1       1        0
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@ CODED BY TSG405, 2021
+************************
